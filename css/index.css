@@ -1,1 +1,258 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.box-spacing {
+  margin: 1%;
+  padding: 2%;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+}
+#nav-bar {
+  padding: 2%;
+  background-color: #683535;
+}
+#nav-bar nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  #nav-bar nav {
+    width: 25%;
+    justify-content: center;
+  }
+}
+a {
+  color: black;
+  margin: 1%;
+  padding: 2%;
+  text-align: center;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: Jazz LET, fantasy;
+}
+a:hover {
+  color: white;
+}
+.top-of-page,
+h1 p {
+  font-size: 2rem;
+  font-family: Jazz LET, fantasy;
+  padding: 1%;
+  padding-left: 3%;
+}
+@media (max-width: 500px) {
+  .top-of-page,
+  h1 p {
+    padding-left: 20%;
+  }
+}
+.image {
+  display: flex;
+  justify-content: center;
+  margin-right: 69%;
+  padding-bottom: 1%;
+}
+@media (max-width: 500px) {
+  .image {
+    width: 25%;
+    padding-left: 20%;
+  }
+}
+.about-section {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1%;
+  padding: 2%;
+}
+.about-section .paragraph,
+.about-section p {
+  font-size: 1.5rem;
+  padding-top: 1%;
+  margin-right: 5%;
+}
+.bottom-of-page {
+  background-color: #683535;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.bottom-of-page div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+}
+.bottom-of-page div li {
+  border: 1px solid white;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .work-history {
+    color: black;
+  }
+}
+.work-history h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 3rem;
+}
+.work-history h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 2rem;
+}
+.work-history p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 1.5rem;
+}
