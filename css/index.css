@@ -138,9 +138,13 @@ body {
   margin: 1%;
   padding: 2%;
 }
+.center {
+  display: flex;
+  flex-direction: column;
+}
 #nav-bar {
   padding: 2%;
-  background-color: white;
+  background-color: #683535;
 }
 #nav-bar nav {
   display: flex;
@@ -154,10 +158,10 @@ body {
 }
 @media (max-width: 450px) {
   #nav-bar nav {
-    flex-direction: column;
+    width: 25%;
   }
 }
-#nav-bar nav a {
+a {
   color: black;
   margin: 1%;
   padding: 2%;
@@ -166,6 +170,86 @@ body {
   text-decoration: none;
   font-family: Jazz LET, fantasy;
 }
-#nav-bar nav a:hover {
-  color: #48961b;
+a:hover {
+  color: white;
+}
+.top-of-page,
+h1 p {
+  font-size: 2rem;
+  font-family: Jazz LET, fantasy;
+  padding: 1%;
+  padding-left: 3%;
+}
+.image {
+  display: flex;
+  justify-content: center;
+  margin-right: 69%;
+  padding-bottom: 1%;
+}
+@media (max-width: 700px) {
+  .image {
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .image {
+    width: 25%;
+  }
+}
+.about-section {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 1%;
+  padding: 2%;
+}
+.about-section .paragraph,
+.about-section p {
+  font-size: 1.5rem;
+  padding-top: 1%;
+  margin-right: 5%;
+}
+.bottom-of-page {
+  background-color: #683535;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.bottom-of-page div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+}
+.bottom-of-page div li {
+  border: 1px solid white;
+  margin: 1%;
+  padding: 2%;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.work-history h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 3rem;
+}
+.work-history h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 2rem;
+}
+.work-history p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  padding: 2%;
+  font-size: 1.5rem;
 }
